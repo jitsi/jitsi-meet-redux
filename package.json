@@ -1,17 +1,18 @@
 {
     "name": "jitsi-meet-redux",
     "version": "1.0.0",
-    "description": "",
-    "dependencies": {
-        "redux": "4.0.1"
-    },
+    "description": "Common Redux reducer and middleware regsitry for jitsi meet projects",
     "devDependencies": {
         "babel-eslint": "10.0.1",
         "eslint": "5.16.0",
         "eslint-config-jitsi": "github:jitsi/eslint-config-jitsi#1.0.1",
         "eslint-plugin-flowtype": "3.10.1",
         "eslint-plugin-import": "2.17.3",
-        "eslint-plugin-jsdoc": "7.2.3"
+        "eslint-plugin-jsdoc": "7.2.3",
+        "redux": "4.0.1"
+    },
+    "peerDependencies": {
+        "redux": "*"
     },
     "main": "index.js",
     "scripts": {
