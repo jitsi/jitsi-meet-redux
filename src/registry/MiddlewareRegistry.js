@@ -4,7 +4,7 @@ import { applyMiddleware } from 'redux';
  * A registry for Redux middleware, allowing features to register their
  * middleware without needing to create additional inter-feature dependencies.
  */
-class MiddlewareRegistry {
+export class MiddlewareRegistry {
     /**
      * Creates a MiddlewareRegistry instance.
      */

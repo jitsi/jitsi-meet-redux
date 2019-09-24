@@ -4,7 +4,7 @@ import { combineReducers } from 'redux';
  * A registry for Redux reducers, allowing features to register themselves
  * without needing to create additional inter-feature dependencies.
  */
-class ReducerRegistry {
+export class ReducerRegistry {
     /**
      * Creates a ReducerRegistry instance.
      */
